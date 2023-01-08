@@ -1,0 +1,4 @@
+(library
+ (name device_detector)
+ (public_name device-detector)
+ (libraries uri))

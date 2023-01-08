@@ -1,0 +1,6 @@
+(test
+ (name referers)
+ (libraries device_detector alcotest yojson)
+ (preprocess
+  (pps ppx_deriving_yojson))
+ (deps %{workspace_root}/data/referer-parser/referers-tests.json))

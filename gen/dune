@@ -1,0 +1,3 @@
+(executable
+ (name main)
+ (libraries cmdliner yaml ppx_deriving_yaml yojson ppx_deriving_yojson fmt))
